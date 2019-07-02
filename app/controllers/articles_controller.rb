@@ -26,5 +26,6 @@ class ArticlesController < ApplicationController
   
   def update 
    @article= Article.find(params[:id]) 
+   @article.update
   end 
 end
